@@ -5,8 +5,8 @@ import { track } from "@vercel/analytics";
 
 export function ResumeModule() {
   return (
-    <div className="max-w-[85%] mx-auto space-y-6 pb-12 h-[calc(100vh-8rem)] flex flex-col">
-      <header className="flex justify-between items-start border-b border-hairline pb-6 shrink-0">
+    <div className="w-full max-w-4xl mx-auto space-y-6 pb-12 h-[calc(100vh-8rem)] flex flex-col overflow-x-hidden">
+      <header className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4 border-b border-hairline pb-6 shrink-0">
         <div className="mt-2">
           <h1 className="text-2xl font-bold tracking-tight font-mono uppercase text-text-primary">CAREER DOSSIER</h1>
           <p className="text-text-muted font-mono text-sm mt-1">Official resume and experience archive.</p>

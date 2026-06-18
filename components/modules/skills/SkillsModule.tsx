@@ -107,7 +107,7 @@ export function SkillsModule() {
   ];
 
   return (
-    <div className="max-w-4xl space-y-12 pb-12">
+    <div className="w-full max-w-4xl space-y-12 pb-12 overflow-x-hidden">
       <header className="space-y-2 border-b border-hairline pb-4">
         <h1 className="text-2xl font-bold tracking-tight font-mono uppercase">Skills & Capabilities</h1>
         <p className="text-text-muted font-mono text-sm">System diagnostics and technical domains.</p>
@@ -119,7 +119,7 @@ export function SkillsModule() {
           <span className="w-1.5 h-1.5 bg-primary rounded-full animate-pulse" />
           TECH RADAR
         </h2>
-        <div className="bg-[#0A0A0A] border border-hairline rounded-lg p-6 font-mono text-sm shadow-inner">
+        <div className="bg-[#0A0A0A] border border-hairline rounded-lg p-6 font-mono text-sm shadow-inner overflow-x-auto">
           <div className="space-y-3">
             {radar.map((item) => (
               <div key={item.label} className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 sm:gap-4">

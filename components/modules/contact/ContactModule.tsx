@@ -22,7 +22,7 @@ const LinkedinIcon = ({ className }: { className?: string }) => (
 
 export function ContactModule() {
   return (
-    <div className="max-w-4xl space-y-12 pb-12">
+    <div className="w-full max-w-4xl space-y-12 pb-12 overflow-x-hidden">
       <header className="space-y-2 border-b border-hairline pb-4">
         <h1 className="text-2xl font-bold tracking-tight font-mono uppercase">Contact</h1>
         <p className="text-text-muted font-mono text-sm">Initiate secure connection.</p>
@@ -31,7 +31,7 @@ export function ContactModule() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8">
         {/* Status Block */}
         <section className="space-y-6">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
             <h2 className="text-sm font-bold text-text-muted font-mono uppercase tracking-wider">Current Mission</h2>
             <div className="flex items-center gap-1.5 px-2 py-1 bg-surface border border-hairline rounded text-[10px] font-mono text-text-muted">
               <Clock className="w-3 h-3" />
@@ -69,7 +69,7 @@ export function ContactModule() {
 
         {/* Network Links */}
         <section className="space-y-6">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
             <h2 className="text-sm font-bold text-text-muted font-mono uppercase tracking-wider">Network Links</h2>
             <div className="flex items-center gap-1.5 px-2 py-1 bg-surface border border-hairline rounded text-[10px] font-mono text-text-muted">
               <MapPin className="w-3 h-3" />

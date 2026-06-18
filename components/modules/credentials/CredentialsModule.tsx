@@ -43,7 +43,7 @@ export function CredentialsModule() {
   ];
 
   return (
-    <div className="max-w-3xl space-y-12 pb-12">
+    <div className="w-full max-w-3xl space-y-12 pb-12 overflow-x-hidden">
       <header className="space-y-2 flex justify-between items-end border-b border-hairline pb-4">
         <div>
           <h1 className="text-2xl font-bold tracking-tight font-mono uppercase">CREDENTIALS & ACHIEVEMENTS</h1>

@@ -2,7 +2,7 @@ import { StatusTag } from "@/components/ui/StatusTag";
 
 export function ResearchModule() {
   return (
-    <div className="max-w-3xl space-y-12 pb-12">
+    <div className="w-full max-w-3xl space-y-12 pb-12 overflow-x-hidden">
       <header className="space-y-2 flex justify-between items-end border-b border-hairline pb-4">
         <div>
           <h1 className="text-2xl font-bold tracking-tight font-mono uppercase text-accent">RESEARCH & APPLIED ENGINEERING</h1>
@@ -10,7 +10,7 @@ export function ResearchModule() {
         </div>
       </header>
 
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <section className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div className="p-4 border border-hairline bg-surface rounded space-y-2">
           <div className="font-mono text-xs text-text-muted">METRIC 01</div>
           <div className="text-2xl font-bold text-primary">85%+</div>

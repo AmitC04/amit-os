@@ -87,7 +87,7 @@ const EXPERIENCES: Experience[] = [
 
 export function ExperienceModule() {
   return (
-    <div className="max-w-3xl space-y-8 pb-12">
+    <div className="w-full max-w-3xl space-y-8 pb-12 overflow-x-hidden">
       <header className="space-y-2">
         <h1 className="text-2xl font-bold tracking-tight font-mono uppercase">SYSTEM HISTORY</h1>
         <p className="text-text-muted font-mono text-sm">{EXPERIENCES.length} Experience Records Loaded</p>

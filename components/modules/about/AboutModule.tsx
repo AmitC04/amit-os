@@ -2,7 +2,7 @@ import { Terminal, Award, ChevronRight, User } from "lucide-react";
 
 export function AboutModule() {
   return (
-    <div className="max-w-4xl space-y-12 pb-12">
+    <div className="w-full max-w-4xl space-y-12 pb-12 overflow-x-hidden">
       
       {/* Featured Banner */}
       <div className="flex items-center gap-4 bg-primary/10 border border-primary/30 p-4 rounded-lg relative overflow-hidden shadow-[0_0_15px_rgba(0,229,255,0.15)]">
@@ -20,7 +20,7 @@ export function AboutModule() {
 
       {/* Hero Section */}
       <header className="space-y-8">
-        <div className="flex flex-col sm:flex-row gap-8 items-start">
+        <div className="flex flex-col sm:flex-row gap-8 items-center sm:items-start text-center sm:text-left">
           {/* Avatar */}
           <div className="relative shrink-0 group">
             <div className="w-24 h-24 sm:w-32 sm:h-32 bg-surface border-2 border-hairline rounded-xl overflow-hidden relative z-10 flex items-center justify-center group-hover:border-primary/50 transition-colors">
@@ -117,8 +117,8 @@ export function AboutModule() {
         </div>
       </section>
 
-      {/* 3 Command Cards */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {/* 2 Command Cards */}
+      <section className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <div className="border border-hairline bg-surface/30 rounded-lg p-5 space-y-3 hover:border-primary/50 transition-colors">
           <h2 className="text-xs font-bold text-text-muted font-mono uppercase tracking-wider flex items-center gap-2">
             <span className="w-1.5 h-1.5 bg-primary rounded-full" /> MISSION
