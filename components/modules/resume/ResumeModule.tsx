@@ -1,3 +1,5 @@
+"use client";
+
 import { Download, FileText } from "lucide-react";
 import { track } from "@vercel/analytics";
 

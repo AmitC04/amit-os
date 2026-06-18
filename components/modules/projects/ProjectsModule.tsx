@@ -1,3 +1,5 @@
+"use client";
+
 import { StatusTag } from "@/components/ui/StatusTag";
 import { ExternalLink, FileText } from "lucide-react";
 import { track } from "@vercel/analytics";

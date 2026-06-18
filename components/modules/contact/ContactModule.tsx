@@ -1,3 +1,5 @@
+"use client";
+
 import { Mail, Phone, ExternalLink, MapPin, Clock } from "lucide-react";
 import { track } from "@vercel/analytics";
 
