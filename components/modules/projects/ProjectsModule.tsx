@@ -56,6 +56,7 @@ const PROJECTS: Project[] = [
     status: "COMPLETED",
     tag: "ACADEMIC PROJECT",
     description: "Built an ESP32-based wireless network analysis tool capable of scanning nearby Wi-Fi networks, monitoring signal strength, channel utilization, and security configurations. Designed for real-time wireless environment assessment and network diagnostics.",
+    image: "/esp32.png",
     stack: ["ESP32", "Networking", "Wi-Fi Analysis", "Embedded Systems"],
     links: { github: "https://github.com/AmitC04/ESP32-WiFi-Network-Analyzer" }
   },
