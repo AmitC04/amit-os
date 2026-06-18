@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-base: #050816;
+  --color-surface: #0A0F1F;
+  --color-card: #111827;
+  --color-hairline: #1E293B;
+  --color-primary: #00E5FF;
+  --color-secondary: #6366F1;
+  --color-accent: #8B5CF6;
+  --color-text-primary: #FFFFFF;
+  --color-text-muted: #94A3B8;
+  --color-status-deployed: #34D399;
+  --color-status-research: #FBBF24;
+  --color-status-archived: #64748B;
+  
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-base);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+}
+
+/* Base heading styles to be mono */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-mono);
+  letter-spacing: -0.02em;
+}
+
+@keyframes typing {
+  from { max-width: 0 }
+  to { max-width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
