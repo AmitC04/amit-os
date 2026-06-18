@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AMIT_OS | Amit Chauhan",
-  description: "Personal portfolio for Amit Chauhan, Software Engineer & AI Builder.",
+  title: "Amit Chauhan | Software Engineer",
+  description: "Software Engineering Intern at C-DOT. AI, Full-Stack Development, Research and Telecom Systems.",
 };
 
 export default function RootLayout({
