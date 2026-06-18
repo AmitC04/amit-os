@@ -3,6 +3,7 @@ import { Inter, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { RootShell } from "@/components/shell/RootShell";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -32,6 +33,7 @@ export default function RootLayout({
       <body className="h-full flex flex-col overflow-hidden bg-base text-text-primary">
         <RootShell>{children}</RootShell>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
