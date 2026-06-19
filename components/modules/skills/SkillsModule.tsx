@@ -58,8 +58,8 @@ export function SkillsModule() {
         {name: "Next.js", label: "GenoSpark", icon: "nextdotjs"}, 
         {name: "React", icon: "react", label: "GenoSpark, Portfolio"}, 
         {name: "HTML5", icon: "html5", label: "GenoSpark, Portfolio"}, 
-        {name: "CSS3", icon: "css3", label: "GenoSpark, Portfolio"}, 
-        {name: "Tailwind CSS", icon: "tailwindcss", label: "GenoSpark, Portfolio"}
+        {name: "Tailwind CSS", icon: "tailwindcss", label: "GenoSpark, Portfolio"},
+        {name: "CSS3", icon: "css3", label: "GenoSpark, Portfolio"}
       ]
     },
     {
@@ -87,10 +87,10 @@ export function SkillsModule() {
     {
       domain: "Data & Analytics",
       items: [
-        {name: "Power BI", icon: "powerbi", label: "Projects"}, 
-        {name: "Microsoft Excel", icon: "microsoftexcel", label: "Projects"}, 
         {name: "Pandas", icon: "pandas", label: "IIIT-A, Projects"}, 
         {name: "NumPy", icon: "numpy", label: "IIIT-A, Projects"}, 
+        {name: "Power BI", icon: "powerbi", label: "Projects"}, 
+        {name: "Microsoft Excel", icon: "microsoftexcel", label: "Projects"}, 
         {name: "Data Cleaning", label: "Projects"}, 
         {name: "Data Visualization", label: "GenoSpark, Projects"}, 
         {name: "Dashboard Development", label: "GenoSpark"}
