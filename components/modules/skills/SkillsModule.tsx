@@ -24,18 +24,18 @@ export function SkillsModule() {
       items: [
         {name: "TensorFlow", label: "IIIT-A", icon: "tensorflow"}, 
         {name: "OpenCV", label: "IIIT-A, Projects", icon: "opencv"}, 
-        {name: "LLM Systems", label: "YT Pipeline"}, 
         {name: "Google ADK", label: "YT Pipeline", icon: "google"}, 
         {name: "Streamlit", icon: "streamlit", label: "Projects"}, 
+        {name: "LLM Systems", label: "YT Pipeline"}, 
         {name: "Computer Vision", label: "IIIT-A, Projects"}
       ]
     },
     {
       domain: "Telecom & Systems",
       items: [
+        {name: "Linux Systems", icon: "linux", label: "C-DOT"}, 
         {name: "Q-SETU IP Encryptors", label: "C-DOT"},
         {name: "System Validation", label: "C-DOT"},
-        {name: "Linux Systems", icon: "linux", label: "C-DOT"}, 
         {name: "Networking", label: "C-DOT, ESP32"}, 
         {name: "Security Testing", label: "C-DOT"}, 
         {name: "Telecom Infrastructure", label: "C-DOT"}
@@ -77,11 +77,11 @@ export function SkillsModule() {
         {name: "Git", icon: "git", label: "All"}, 
         {name: "GitHub Actions", icon: "githubactions", label: "IBM"}, 
         {name: "Docker", icon: "docker", label: "YT Pipeline"}, 
-        {name: "CI/CD", label: "IBM"}, 
         {name: "Postman", icon: "postman", label: "GenoSpark, YT Pipeline"}, 
         {name: "Linux", icon: "linux", label: "C-DOT"}, 
         {name: "Figma", icon: "figma", label: "Portfolio"}, 
-        {name: "GitHub", icon: "github", label: "All"}
+        {name: "GitHub", icon: "github", label: "All"},
+        {name: "CI/CD", label: "IBM"}
       ]
     },
     {
