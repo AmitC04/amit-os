@@ -45,7 +45,7 @@ const EXPERIENCES: Experience[] = [
   {
     company: "IBM AICTE",
     logoUrl: "/logo_ibm.png",
-    role: "Software Engineering Intern (AI/ML)",
+    role: "AI Intern",
     period: "Nov 2024 - Jan 2025",
     status: "COMPLETED",
     orgType: "AI/ML",
@@ -59,7 +59,7 @@ const EXPERIENCES: Experience[] = [
   {
     company: "IIIT Allahabad",
     logoUrl: "/logo_iiita.png",
-    role: "Software Engineering Intern (Research)",
+    role: "Research Intern",
     period: "Nov 2024 - Dec 2024",
     status: "COMPLETED",
     orgType: "RESEARCH",
@@ -76,7 +76,7 @@ const EXPERIENCES: Experience[] = [
     role: "Machine Learning Virtual Intern",
     period: "Sep 2023 - Nov 2023",
     status: "COMPLETED",
-    orgType: "CLOUD",
+    orgType: "AI/ML",
     description: [
       "Deployed ML models on AWS EC2.",
       "Used AWS S3 and CloudWatch for storage and monitoring.",
