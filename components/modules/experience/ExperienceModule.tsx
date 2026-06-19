@@ -27,9 +27,9 @@ const EXPERIENCES: Experience[] = [
     achievements: ["Q-SETU Testing", "Secure Communication"]
   },
   {
-    company: "GenoSpark Innovative Solutions Pvt. Ltd.",
+    company: "Genospark Innovative Solutions Pvt. Ltd.",
     logoUrl: "/logo_genospark.png",
-    role: "Next.js Intern",
+    role: "Full-Stack Developer Intern",
     period: "Dec 2025 - Mar 2026",
     status: "COMPLETED",
     orgType: "INDUSTRY",

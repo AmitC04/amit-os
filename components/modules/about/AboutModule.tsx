@@ -165,11 +165,11 @@ export function AboutModule() {
             </ul>
           </div>
           
-          {/* GenoSpark */}
+          {/* Genospark */}
           <div className="relative group">
             <span className="absolute -left-[30px] top-1.5 w-3 h-3 rounded-full bg-surface border-2 border-hairline group-hover:border-text-muted transition-colors" />
             <p className="text-text-muted mb-1 text-xs">2025</p>
-            <p className="text-text-primary/40 group-hover:text-text-primary transition-colors font-bold">Next.js Intern at <span className="inline-flex items-center gap-1.5 align-middle"><img src="/logo_genospark.png" className="w-4 h-4 rounded-[2px] bg-white/90 p-[1px] object-contain" alt="GenoSpark" /> GenoSpark</span></p>
+            <p className="text-text-primary/40 group-hover:text-text-primary transition-colors font-bold">Full-Stack Developer Intern at <span className="inline-flex items-center gap-1.5 align-middle"><img src="/logo_genospark.png" className="w-4 h-4 rounded-[2px] bg-white/90 p-[1px] object-contain" alt="Genospark" /> Genospark</span></p>
             <ul className="text-text-primary/30 group-hover:text-text-primary/70 mt-2 space-y-1 transition-colors text-xs">
               <li>• Built a User Analytics Dashboard</li>
               <li>• Developed an Admin Activity Monitoring Dashboard</li>
