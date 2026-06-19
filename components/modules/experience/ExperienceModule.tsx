@@ -113,24 +113,22 @@ export function ExperienceModule() {
                   : 'bg-surface border-hairline'
             }`} />
             
-            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4 mb-4">
-              <div className="flex-1 min-w-0">
-                <div className="flex items-start sm:items-center gap-2">
+            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mb-3">
+              <div>
+                <div className="flex items-start gap-2">
                   {exp.logoUrl && (
-                    <img src={exp.logoUrl} alt={`${exp.company} logo`} className="w-5 h-5 rounded-sm object-contain bg-white/90 p-[1px] mt-1 sm:mt-0 shrink-0" />
+                    <img src={exp.logoUrl} alt={`${exp.company} logo`} className="w-5 h-5 rounded-sm object-contain bg-white/90 p-[1px] mt-1 shrink-0" />
                   )}
-                  <div className="flex flex-row items-center gap-2 flex-wrap sm:flex-nowrap">
-                    <h3 className={`font-bold text-lg leading-snug ${exp.status === 'ACTIVE' ? 'text-primary' : 'text-text-primary'}`}>
-                      {exp.company}
-                    </h3>
-                    <span className="font-mono text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded border border-hairline bg-surface/50 text-text-muted shrink-0 whitespace-nowrap">
+                  <h3 className={`font-bold text-lg leading-snug ${exp.status === 'ACTIVE' ? 'text-primary' : 'text-text-primary'}`}>
+                    {exp.company}
+                    <span className="inline-block align-text-bottom ml-2 mb-0.5 font-mono text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded border border-hairline bg-surface/50 text-text-muted">
                       [{exp.orgType}]
                     </span>
-                  </div>
+                  </h3>
                 </div>
                 <p className="font-mono text-sm text-text-muted mt-1">{exp.role}</p>
               </div>
-              <div className="flex flex-col sm:items-end gap-1 shrink-0 mt-2 sm:mt-0">
+              <div className="flex flex-col sm:items-end gap-1">
                 {exp.status === 'ACTIVE' ? (
                   <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded text-xs font-mono font-bold bg-primary/20 text-primary border border-primary/30">
                     <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
