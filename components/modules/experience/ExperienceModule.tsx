@@ -115,14 +115,16 @@ export function ExperienceModule() {
             
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mb-3">
               <div>
-                <div className="flex items-center gap-2 flex-wrap">
+                <div className="flex items-start gap-2">
                   {exp.logoUrl && (
-                    <img src={exp.logoUrl} alt={`${exp.company} logo`} className="w-5 h-5 rounded-sm object-contain bg-white/90 p-[1px]" />
+                    <img src={exp.logoUrl} alt={`${exp.company} logo`} className="w-5 h-5 rounded-sm object-contain bg-white/90 p-[1px] mt-1 shrink-0" />
                   )}
-                  <h3 className={`font-bold text-lg ${exp.status === 'ACTIVE' ? 'text-primary' : 'text-text-primary'}`}>{exp.company}</h3>
-                  <span className="font-mono text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded border border-hairline bg-surface/50 text-text-muted">
-                    [{exp.orgType}]
-                  </span>
+                  <h3 className={`font-bold text-lg leading-snug ${exp.status === 'ACTIVE' ? 'text-primary' : 'text-text-primary'}`}>
+                    {exp.company}
+                    <span className="inline-block align-text-bottom ml-2 mb-0.5 font-mono text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded border border-hairline bg-surface/50 text-text-muted">
+                      [{exp.orgType}]
+                    </span>
+                  </h3>
                 </div>
                 <p className="font-mono text-sm text-text-muted mt-1">{exp.role}</p>
               </div>
@@ -135,7 +137,7 @@ export function ExperienceModule() {
                 ) : (
                   <StatusTag status={exp.status} />
                 )}
-                <span className="font-mono text-xs text-text-muted/60">{exp.period}</span>
+                <span className="font-mono text-xs text-text-muted/60 whitespace-nowrap">{exp.period}</span>
               </div>
             </div>
             
