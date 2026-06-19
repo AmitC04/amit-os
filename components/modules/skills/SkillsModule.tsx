@@ -26,19 +26,19 @@ export function SkillsModule() {
         {name: "OpenCV", label: "IIIT-A, Projects", icon: "opencv"}, 
         {name: "Google ADK", label: "YT Pipeline", icon: "google"}, 
         {name: "Streamlit", icon: "streamlit", label: "Projects"}, 
-        {name: "LLM Systems", label: "YT Pipeline"}, 
-        {name: "Computer Vision", label: "IIIT-A, Projects"}
+        {name: "LLM Systems", label: "YT Pipeline", icon: "openai"}, 
+        {name: "Computer Vision", label: "IIIT-A, Projects", icon: "pytorch"}
       ]
     },
     {
       domain: "Telecom & Systems",
       items: [
         {name: "Linux Systems", icon: "linux", label: "C-DOT"}, 
-        {name: "Q-SETU IP Encryptors", label: "C-DOT"},
-        {name: "System Validation", label: "C-DOT"},
-        {name: "Networking", label: "C-DOT, ESP32"}, 
-        {name: "Security Testing", label: "C-DOT"}, 
-        {name: "Telecom Infrastructure", label: "C-DOT"}
+        {name: "Q-SETU IP Encryptors", label: "C-DOT", icon: "wireguard"},
+        {name: "System Validation", label: "C-DOT", icon: "testinglibrary"},
+        {name: "Networking", label: "C-DOT, ESP32", icon: "ubiquiti"}, 
+        {name: "Security Testing", label: "C-DOT", icon: "wireshark"}, 
+        {name: "Telecom Infrastructure", label: "C-DOT", icon: "nokia"}
       ]
     },
     {
@@ -49,7 +49,7 @@ export function SkillsModule() {
         {name: "PostgreSQL", icon: "postgresql", label: "GenoSpark"}, 
         {name: "MongoDB", icon: "mongodb", label: "YT Pipeline"}, 
         {name: "MySQL", icon: "mysql", label: "GenoSpark, Projects"}, 
-        {name: "REST APIs", label: "GenoSpark, YT Pipeline"}
+        {name: "REST APIs", label: "GenoSpark, YT Pipeline", icon: "swagger"}
       ]
     },
     {
@@ -59,16 +59,16 @@ export function SkillsModule() {
         {name: "React", icon: "react", label: "GenoSpark, Portfolio"}, 
         {name: "HTML5", icon: "html5", label: "GenoSpark, Portfolio"}, 
         {name: "Tailwind CSS", icon: "tailwindcss", label: "GenoSpark, Portfolio"},
-        {name: "CSS3", icon: "css3", label: "GenoSpark, Portfolio"}
+        {name: "CSS3", icon: "css", label: "GenoSpark, Portfolio"}
       ]
     },
     {
       domain: "Cloud",
       items: [
         {name: "AWS", icon: "amazonaws", label: "AWS EduSkills, Projects"}, 
-        {name: "EC2", icon: "amazonec2", label: "AWS EduSkills"}, 
-        {name: "S3", icon: "amazons3", label: "AWS EduSkills"}, 
-        {name: "CloudWatch", icon: "amazoncloudwatch", label: "AWS EduSkills"}
+        {name: "EC2", icon: "amazonaws", label: "AWS EduSkills"}, 
+        {name: "S3", icon: "amazonaws", label: "AWS EduSkills"}, 
+        {name: "CloudWatch", icon: "amazonaws", label: "AWS EduSkills"}
       ]
     },
     {
@@ -81,7 +81,7 @@ export function SkillsModule() {
         {name: "Linux", icon: "linux", label: "C-DOT"}, 
         {name: "Figma", icon: "figma", label: "Portfolio"}, 
         {name: "GitHub", icon: "github", label: "All"},
-        {name: "CI/CD", label: "IBM"}
+        {name: "CI/CD", label: "IBM", icon: "jenkins"}
       ]
     },
     {
@@ -89,19 +89,19 @@ export function SkillsModule() {
       items: [
         {name: "Pandas", icon: "pandas", label: "IIIT-A, Projects"}, 
         {name: "NumPy", icon: "numpy", label: "IIIT-A, Projects"}, 
-        {name: "Power BI", icon: "powerbi", label: "Projects"}, 
-        {name: "Microsoft Excel", icon: "microsoftexcel", label: "Projects"}, 
-        {name: "Data Cleaning", label: "Projects"}, 
-        {name: "Data Visualization", label: "GenoSpark, Projects"}, 
-        {name: "Dashboard Development", label: "GenoSpark"}
+        {name: "Power BI", icon: "microsoft", label: "Projects"}, 
+        {name: "Microsoft Excel", icon: "microsoft", label: "Projects"}, 
+        {name: "Data Cleaning", label: "Projects", icon: "apachespark"}, 
+        {name: "Data Visualization", label: "GenoSpark, Projects", icon: "grafana"}, 
+        {name: "Dashboard Development", label: "GenoSpark", icon: "vercel"}
       ]
     },
     {
       domain: "Research",
       items: [
-        {name: "OCR", label: "IIIT-A"}, 
-        {name: "Scene Text Spotting", label: "IIIT-A"}, 
-        {name: "Model Optimization", label: "IIIT-A"}
+        {name: "OCR", label: "IIIT-A", icon: "google"}, 
+        {name: "Scene Text Spotting", label: "IIIT-A", icon: "opencv"}, 
+        {name: "Model Optimization", label: "IIIT-A", icon: "onnx"}
       ]
     }
   ];
